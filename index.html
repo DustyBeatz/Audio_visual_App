@@ -1,62 +1,83 @@
-<!DOCTYPE <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Page Title</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/foundation.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/app.css"/>
 </head>
-<header id="header">
-<nav id="nav">
-<div id="logo">
-    <img src="images/roku_flashback.svg" type="xml/svg">
-</div>
-<div id="search">
-    <!--Creating a seach bar with a hover feature, letting the bar hide when not active or hovered over-->
-</div>
 
-<div id="account">
-<!--Here we'll put the account settings, KIDS options and the sign out option-->
-<ul>
-    <li><a href=" ">KIDS</a></li>
-        <li><a href=" ">Account Settings</a></li>
-            <li><a href=" ">Sign Out</a></li>
-</ul>
-</div>
-</nav>
 
-</header>
+
 <body>
+        <header id="header" class="small-12 row">
+                <nav id="nav">
+                <section id="logo" class="small-2">
+                    <img src="images/roku_flashback.svg">
+                </section>
+                
+                
+                <div id="navWrapper" class="small-4  column">
+                <div id="search" class="small-6">
+                    <!--Creating a seach bar with a hover feature, letting the bar hide when not active or hovered over-->
+                </div>
+                
+                <div id="account" class="small-6">
+                <!--Here we'll put the account settings, KIDS options and the sign out option-->
+                <ul>
+                    <li><a href=" ">KIDS</a></li>
+                        <li><a href=" ">Account Settings</a></li>
+                            <li><a href=" ">Sign Out</a></li>
+                </ul>
+                </div>
+                </div>
+                </nav>
+                
+                </header>
+                <section class="small-12 row">
     <div id="welcome">
 
 <!-- HERE IS WHERE WE'LL ADD THE WELOCOME PAGE-->
 
     </div>
-
-
-
-    <div class="box">
+</section>
+<!-- CONTENT WILL HAVE LIGHT BOX-->
+<section class="small-12 row">
+    <div class="box small-12 large-4 column">
         <!-- HERE IS WHERE THE MUSIC CONTENT GOES-->
+
+        <p>BOX 1</p>
     </div>
 
-    <div class="box">
+    <div class="box small-12 large-4 column">
         <!--HERE IS WHERE WE ADD THE TV CONTENT-->
+
+        <p>BOX 1</p>
+
         </div>
 
+<<<<<<< HEAD
+        <div class="box small-12 large-4 column">
+=======
         <div>
         
             </div class='box'>
     <div>
         
     </div>
+>>>>>>> ebb429193f7ace35d2ecb0976ff331cd3e84eb73
         <!-- HERE IS WHERE THE MOVIES CONTENT GOES-->
-            </div class="box">
 
+        <p>BOX 1</p>
+
+            </div >
+        </section>
     <footer>
-<div id="mediaLinks">
-<p> here are the social media <a href=" ">links</a></p>
+<div id="mediaLinks" class="small-12 small-centered">
+<p class="small-6 small-centered"> here are the social media <a href=" ">links</a></p>
 </div>
 
     </footer>
@@ -66,5 +87,6 @@
     <script src="js/vendor/what-input.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/app.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
