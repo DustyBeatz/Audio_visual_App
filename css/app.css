@@ -85,20 +85,43 @@ padding: 10px;
     background-color: black;
     color: white;
     margin-bottom: 100px;
-    height: 50px;
+    height: 100px;
 }
 
 #mediaLinks
 {
-    height: 150px;
+    height: 200px;
     margin-top: 100px;
 
 
-    background-color: /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6000af+24,8a5daf+53,7d3faf+53,4f167b+100 */
+    background-color: ;/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6000af+24,8a5daf+53,7d3faf+53,4f167b+100 */
     background: #6000af; /* Old browsers */
     background: -moz-linear-gradient(-45deg, #6000af 24%, #8a5daf 53%, #7d3faf 53%, #4f167b 100%); /* FF3.6-15 */
     background: -webkit-linear-gradient(-45deg, #6000af 24%,#8a5daf 53%,#7d3faf 53%,#4f167b 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(135deg, #6000af 24%,#8a5daf 53%,#7d3faf 53%,#4f167b 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6000af', endColorstr='#4f167b',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */;
-    
+ 
+}
+
+.table {
+    display: table;
+    margin: 0 auto;
+    align-content: center;
+}
+
+ul#socialList {
+    min-width: 400px;
+    list-style: none;
+    padding-top: 20px;
+}
+
+ul#socialList li {
+    display: inline;
+}
+
+ul#terms li {
+
+    display: inline;
+    padding: 10px;
+
 }
