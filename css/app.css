@@ -1,0 +1,30 @@
+ul {
+    list-style-type: none;
+}
+
+
+#logo {
+    float: left;
+}
+
+#navWrapper {
+    float: left;
+    padding-left: 50%;
+}
+
+#welcome {
+    background-color: aquamarine;
+    height: 500px;
+}
+
+.box {
+height: 101px;
+background-color: black;
+padding: 10px;
+    
+}
+
+.box p {
+    color: white;
+}
+
