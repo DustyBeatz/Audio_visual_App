@@ -52,7 +52,7 @@ padding: 10px;
 {
     background-image: url(../images/heroimage_mobile.png);
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 110%;
     display: block;
     height: 800px;
 }
@@ -95,6 +95,10 @@ padding: 10px;
     font-family: 'Baloo';
     font-size: 2.25em;
     color: #6f1ab1;
+}
+
+#mediaSection {
+    padding-left: 25px;
 }
 
 .sampleThumbnail
