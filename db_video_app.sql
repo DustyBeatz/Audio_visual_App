@@ -39,6 +39,9 @@ CREATE TABLE IF NOT EXISTS `tbl_player` (
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 COMMIT;
 
+INSERT INTO tbl_player (video_name, video_duration, video_desc, video_thumbnail)
+VALUES ('Crab Rave', '3:12', 'Every year after the most intense tropical storms, thousands of crabs gather on this remote island. Now for the first time, witness all the side-stepping, air-snapping action of the monumental Crab Rave! Claws in the air!','crab_rave.jpg');
+
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

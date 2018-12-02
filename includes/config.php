@@ -1,32 +1,14 @@
-<?php
-$host = "localhost";
-$user = "root";
-$password = ""; 
-$db = "db_video_App";
+<?php 
 
-$conn = mysqli_connect($host, $user, $password, $db);
+include 'connect.php';
 
-if (!$conn) {
-    echo "something broke ... connection isn't working";
-    exit;
+function get_video_name(%pdo, $vid) {
+    $query = "SELECT * FROM tbl_player WHERE id = '$vid'";
+
+    $get_name = $pdo->query($query);
+    $result[] = $row;
 }
 
+return $results;
 
-while($row = mysqli_fetch_assoc($result)) {
-    $rows[] = $row;
-}
-
-if (isset($_GET["testInfo"])){
-    $info = $_GET["testInfo"];
-
-    $myQuery = "SELECT * FROM tbl_test WHERE test = '$info'";
-    $result = mysqli_query($conn, $myQuery);
-    $rows = array();
-
-    while($row = mysqli_fetch_assoc($result)) {
-        $rows[] = $row;
-    }
-}
-
-echo json_encode($rows);
 ?>

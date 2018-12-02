@@ -1,7 +1,12 @@
-$(document).foundation()
- var app = new IDBCursorWithValue({
-     el: '#app',
-     data: {
-         message: 'Hello Vue!'
-     }
- });
+(()=> {
+
+    const vm = new Vue ({
+        el:'#app',
+
+        data: {
+            videoname :"Crab Rave",
+            
+        }
+    });
+
+})();
