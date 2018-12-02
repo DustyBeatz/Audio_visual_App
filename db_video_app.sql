@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3306
--- Generation Time: Nov 30, 2018 at 06:34 PM
+-- Generation Time: Dec 02, 2018 at 05:10 PM
 -- Server version: 5.7.21
 -- PHP Version: 5.6.35
 
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `db_video_App`
+-- Database: `db_video_app`
 --
 
 -- --------------------------------------------------------

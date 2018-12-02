@@ -1,8 +1,8 @@
 <?php
 $host = "localhost";
 $user = "root";
-$password = "root"; 
-$db = "db_avapp";
+$password = ""; 
+$db = "db_video_App";
 
 $conn = mysqli_connect($host, $user, $password, $db);
 
