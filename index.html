@@ -1,23 +1,23 @@
-
-<!DOCTYPE HTML>
-<html lang="en">
+<!DOCTYPE html>
+<html>
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>Roku Flashback | Home</title>
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/foundation.min.css">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="css/app.css"/>
     <link href="https://fonts.googleapis.com/css?family=Baloo" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Palanquin+Dark" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
 </head>
 
 
 
 <body>
         <header id="mainHeader" class="small-12 row">
-                <nav class="mainNav small-12 large-8 large-push-4 columns">
+                <nav id="mainNav" class="small-12 large-8 large-push-4 columns">
 
                         <div class="title-bar" data-responsive-toggle="main-menu" data-hide-for="large">
                                 <div class="title-bar-right">
@@ -26,18 +26,16 @@
                         </div>
                     
                             <div id="main-menu" class="text-center">
-                              <ul class="mainNav">
-                                <li><a href="#">Parents</a></li>
-                                <li><a href="#">Kids</a></li>
+                              <ul id="mainNav">
+                                <li><a href="parent.html">Parents</a></li>
+                                <li><a href="kids.html">Kids</a></li>
                                 <li><a href="#">Sign In</a></li>
                               </ul>   
-                              </div>
-                            
                 
                 </nav>
 
                 <div id="logo" class="small-6 small-offset-3 large-offset-0 large-2 large-pull-7 columns end">
-                        <img src="images/roku_flashback.svg" alt="Roku flashback logo">
+                        <a href="index.html"><img src="images/roku_flashback.svg"></a>
                 </div>
                 
                 </header>
@@ -47,72 +45,67 @@
     <h1 class="text-center startingTitle">Any Generation.</h1>
     <h1 class="text-center">Any Media.</h1>
     <p class="small-10 small-offset-1 text-center">Roku Flashback carries the largest inventory of your favourite oldies from Music, Television, and Movies over the decades.<br> Want to see what we’re about?</p>
-    <a href="#" class="button round exploreButton">EXPLORE FLASHBACK</a>
+    <a href="parent.html" class="button round exploreButton">EXPLORE FLASHBACK</a>
 <!-- HERE IS WHERE WE'LL ADD THE WELOCOME PAGE-->
 
     </div>
 </section>
-
-
-<section id="mediaSection" class="small-12 large-12 row">
-
-    <div class="small-12 large-12 row">
+<!-- CONTENT WILL HAVE LIGHT BOX-->
+<section class="small-12 row">
+    <div class="small-12 large-4 column">
+        <!-- HERE IS WHERE THE MUSIC CONTENT GOES-->
         <h1 class="underline">Music</h1>
-
-
-        <div id="app" class="sampleThumbnail small-12 large-4 column">
+        <div class="sampleThumbnail small-12 row">
             {{ videoname }}
-
-            </div>
-
+        </div>
 
 
-        <div class="sampleThumbnail small-12 large-4  column">
-                <h2>Thumbnail</h2>
+        <div class="sampleThumbnail small-12 row">
+            {{ videoname }}
         </div>
 
         
-        <div class="sampleThumbnail small-12 large-4 column">
-                    <h2>Thumbnail</h2>
+        <div class="sampleThumbnail small-12 row">
+            {{ videoname }}
         </div>
     </div>
 
-    <div class="small-12 large-12 row">
+    <div class="small-12 large-4 column">
         <!--HERE IS WHERE WE ADD THE TV CONTENT-->
 
         <h1 class="underline">Television</h1>
-        <div class="sampleThumbnail small-12 large-4 column">
-                <h2>Thumbnail</h2>
+        <div class="sampleThumbnail small-12 row">
+            {{ videoname }}
             </div>
     
     
-            <div class="sampleThumbnail small-12 large-4 column">
-                    <h2>Thumbnail</h2>
+            <div class="sampleThumbnail small-12 row">
+            {{ videoname }}
             </div>
     
             
-            <div class="sampleThumbnail small-12 large-4 column">
-                        <h2>Thumbnail</h2>
+            <div class="sampleThumbnail small-12 row">
+            {{ videoname }}
             </div>
 
         </div>
 
-        <div class="small-12 large-12 row">
+        <div class="small-12 large-4 column">
         <!-- HERE IS WHERE THE MOVIES CONTENT GOES-->
-        <h1 class="underline">Movies</h1>
 
-        <div class="sampleThumbnail small-12 large-4 column">
-                <h2>Thumbnail</h2>
+        <h1 class="underline">Movies</h1>
+        <div class="sampleThumbnail small-12 row">
+                {{ videoname }}
             </div>
     
     
-            <div class="sampleThumbnail small-12 large-4 column">
-                    <h2>Thumbnail</h2>
+            <div class="sampleThumbnail small-12 row">
+                {{ videoname }}
             </div>
     
             
-            <div class="sampleThumbnail small-12 large-4 column">
-                        <h2>Thumbnail</h2>
+            <div class="sampleThumbnail small-12 row">
+                {{ videoname }}
             </div>
 
             </div >
@@ -123,10 +116,10 @@
 <div class="small-12 small-centere large-centered row">
     <div class="table">
         <ul id="socialList">
-            <li><a href=""><img class="socialImg" src="images/faceboook.png" alt="facebook logo"></a></li>
-            <li><a href=""><img class="socialImg" src="images/twitter.png" alt="twitter logo"></a></li>
-            <li><a href=""><img class="socialImg" src="images/linkedin.png"  alt="linkedin logo"></a></li>
-            <li><a href=""><img class="socialImg" src="images/instagram.png" alt="instagram logo"></a></li>
+            <li><a href=""><img class="socialImg" src="images/faceboook.png"></a></li>
+            <li><a href=""><img class="socialImg" src="images/twitter.png"></a></li>
+            <li><a href=""><img class="socialImg" src="images/linkedin.png"></a></li>
+            <li><a href=""><img class="socialImg" src="images/instagram.png"></a></li>
         </ul>
     </div>
     </div>

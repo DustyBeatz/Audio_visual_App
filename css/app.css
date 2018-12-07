@@ -27,13 +27,13 @@ padding: 10px;
     margin-bottom: 0px;
 }
 
-.mainNav{
+#mainNav{
     list-style-type: none;
     text-align: center;
     margin: 0;
 }
 
-.mainNav li a
+#mainNav li a
 {
 	display: block;
 	padding: 10px 0 10px 0;
@@ -43,16 +43,85 @@ padding: 10px;
     border-bottom: 3px solid #6f1ab1;
 }
 
-.mainNav li a:hover{
+#mainNav li a:hover{
     background-color: #f7b22c;
     opacity: 0.3;
+}
+
+#videoControls
+{
+    height: 200px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+#videoControls ul{
+    list-style-type: none;
+}
+
+#videoControls ul li{
+    display: inline-block;
+}
+
+.play-pause
+{
+    font-size: 6em;
+    margin-left: 25px;
+    margin-right: 25px;
+    color: #4f167b;
+    cursor: pointer;
+}
+
+.play-pause:active{
+    margin-top: 2px;
+}
+
+.volumeUp
+{
+    float: right;
+    font-size: 2em;
+    color: #4f167b;
+    cursor: pointer;
+}
+
+.volumeUp:active
+{
+    margin-top: 2px;
+}
+
+.volumeDown
+{
+    float: right;
+    font-size: 2em;
+    color: #4f167b;
+    margin-left: 20px;
+    cursor: pointer;
+}
+
+.volumeDown:active
+{
+    margin-top: 2px;
+}
+
+.rewindBut
+{
+    font-size: 3em;
+    color: #4f167b;
+    cursor: pointer;
+}
+
+.ffBut
+{
+    font-size: 3em;
+    color: #4f167b;
+    cursor: pointer;
 }
 
 #welcome
 {
     background-image: url(../images/heroimage_mobile.png);
     background-repeat: no-repeat;
-    background-size: 110%;
+    background-size: 100%;
     display: block;
     height: 800px;
 }
@@ -66,6 +135,13 @@ padding: 10px;
     font-size: 2.25em;
     color: #6f1ab1;
 }
+
+#videoCon{
+    margin-bottom: 75px;
+    margin-top: 50px;
+}
+
+
 
 #welcome p{
     padding-top: 20px;
@@ -97,17 +173,12 @@ padding: 10px;
     color: #6f1ab1;
 }
 
-#mediaSection {
-    padding-left: 25px;
-}
-
 .sampleThumbnail
 {
-    float: left;
     background-color: black;
     color: white;
     margin-bottom: 100px;
-    height: 200px;
+    height: 100px;
 }
 
 #mediaLinks
@@ -170,21 +241,21 @@ ul#terms li {
 		position: relative;
 	}
 
-	.mainNav
+	#mainNav
 	{
 		text-align: right;
         text-transform: uppercase;
         margin-top: 20px;
 	}
 
-	.mainNav li
+	#mainNav li
 	{
 		border-bottom: none;
 		display: inline;
 		margin-left: 20px;
 	}
 
-	.mainNav li a
+	#mainNav li a
 	{
 		display: inline;
 		background-color: #fff;
@@ -192,14 +263,14 @@ ul#terms li {
         border-bottom: 0px;
     }
 
-    .mainNav li a:hover
+    #mainNav li a:hover
 	{
         border-bottom: 3px solid #f7b22c;
         background-color: #fff;
         opacity: 1;
 	}
 
-	.mainNav li:first-child
+	#mainNav li:first-child
 	{
 		border-top: none;
 	}
