@@ -8,6 +8,7 @@ ul {
     margin-top: 30px;
     margin-left: 10px;
     max-width: 220px;
+    padding-bottom: 10px;
 }
 
 
@@ -22,10 +23,6 @@ padding: 10px;
     color: white;
 }
 
-#header
-{
-    margin-bottom: 0px;
-}
 
 #mainNav{
     list-style-type: none;
@@ -36,17 +33,13 @@ padding: 10px;
 #mainNav li a
 {
 	display: block;
-	padding: 10px 0 10px 0;
+    padding: 10px 0 10px 0;
     color: #6f1ab1;
     font-family: 'Baloo';
     font-size: 2em;
     border-bottom: 3px solid #6f1ab1;
 }
 
-#mainNav li a:hover{
-    background-color: #f7b22c;
-    opacity: 0.3;
-}
 
 #videoControls
 {
@@ -65,7 +58,7 @@ padding: 10px;
 
 .play-pause
 {
-    font-size: 6em;
+    font-size: 4em;
     margin-left: 25px;
     margin-right: 25px;
     color: #4f167b;
@@ -79,7 +72,7 @@ padding: 10px;
 .volumeUp
 {
     float: right;
-    font-size: 2em;
+    font-size: 1.5em;
     color: #4f167b;
     cursor: pointer;
 }
@@ -92,7 +85,7 @@ padding: 10px;
 .volumeDown
 {
     float: right;
-    font-size: 2em;
+    font-size: 1.5em;
     color: #4f167b;
     margin-left: 20px;
     cursor: pointer;
@@ -105,14 +98,14 @@ padding: 10px;
 
 .rewindBut
 {
-    font-size: 3em;
+    font-size: 2em;
     color: #4f167b;
     cursor: pointer;
 }
 
 .ffBut
 {
-    font-size: 3em;
+    font-size: 2em;
     color: #4f167b;
     cursor: pointer;
 }
@@ -235,6 +228,16 @@ ul#terms li {
 	box-shadow: 0 7px 0 #350C54, 0 14px 0 #350C54;
 }
 
+#kidsPage
+{
+    background-color: #fad17e;
+}
+
+.titleKids
+{
+    background-color: #fad17e;
+}
+
 @media screen and (min-width: 64em) {
 	#mainHeader
 	{
@@ -258,16 +261,14 @@ ul#terms li {
 	#mainNav li a
 	{
 		display: inline;
-		background-color: #fff;
+		background-color: #fad17e;
         padding: 5px 0 5px 0;
         border-bottom: 0px;
     }
 
     #mainNav li a:hover
 	{
-        border-bottom: 3px solid #f7b22c;
-        background-color: #fff;
-        opacity: 1;
+        border-bottom: 3px solid #6f1ab1;
 	}
 
 	#mainNav li:first-child
@@ -279,5 +280,47 @@ ul#terms li {
 	{
 		margin-top: 20px;
 		max-width: 250px;
-	}
+    }
+
+    .rewindBut
+    {
+        font-size: 3em;
+        color: #4f167b;
+        cursor: pointer;
+    }
+
+    .ffBut
+    {
+        font-size: 3em;
+        color: #4f167b;
+        cursor: pointer;
+    }
+
+    .volumeDown
+    {
+        float: right;
+        font-size: 2em;
+        color: #4f167b;
+        margin-left: 20px;
+        cursor: pointer;
+    }
+
+    .volumeUp
+    {
+        float: right;
+        font-size: 2em;
+        color: #4f167b;
+        cursor: pointer;
+    }
+
+    .play-pause
+    {
+        font-size: 6em;
+        margin-left: 25px;
+        margin-right: 25px;
+        color: #4f167b;
+        cursor: pointer;
+    }
+    
+
 }
